@@ -19,7 +19,7 @@ int const offset_arr[]={7200, 3600, 7200, 10800, 36000, 28800, 32400, -14400};
 char const *zones_arr[] = {"Cairo  ", "London ", "Paris  ", "Moscow ", "Sydney ", "Beijing", "Tokyo  ", "Toronto"};
 
 // Print the time on the LCD
-void ya3amoElsa3aKam()
+void printTime()
 {
   //  Get out of function if no time available
   struct tm timeinfo;
@@ -60,7 +60,7 @@ void loop()
   lcd.setCursor(9, 0);
   lcd.print(zones_arr[zone]);
   // Print time on LCD
-  ya3amoElsa3aKam();
+  printTime();
 
   // -------------------- Receive Bluetooth signal ----------------------
   if (ESP_BT.available()) 
