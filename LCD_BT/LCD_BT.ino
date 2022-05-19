@@ -1,3 +1,13 @@
+/*
+This code was written by:
+Yahia Walid Mohamad El-Dakhakhny  19016891
+Youssef Mohamad El-Sayed          19016941
+Ahmed Aly Gamal El-Din El-Ghannam 19015292
+Ahmed Sherif Ahmed Mahmoud        19015255
+Kerollos Saad Thomas Shokrallah   19016188
+*/
+
+
 // Include libraries
 #include <WiFi.h>
 #include "time.h"
